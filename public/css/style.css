@@ -45,12 +45,13 @@ div.product__image {
     background-color: white;
     background-image: url("/public/images/product-mobile.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 8px 8px 0 0;
 }
 
 div.product__info {
-    margin: 1.5em 1.4375em;
-    padding: 0;
+    margin: 0;
+    padding: 1.5em 1.4375em;
 
     font-family: 'Montserrat';
 }
@@ -153,4 +154,56 @@ div.product__price + button {
     align-items: center;
     justify-content: center;
     gap: 0.785em;
+}
+
+@media only screen and (min-width: 720px) {
+    div.card {
+        width: 600px;
+        min-height: 450px;
+
+        display: flex;
+    }
+
+    div.product__image {
+        width: 300px;
+        min-height: 100%;
+
+        background-image: url("/public/images/product-desktop.jpg");
+        border-radius: 8px 0 0 8px;
+    }
+
+    div.product__info {
+        margin: 0;
+        padding: 2rem;
+
+        width: 300px;
+    }
+
+    div.product__info > span:first-of-type {
+        font-size: 0.875rem;
+        letter-spacing: 0.25em;
+    }
+
+    div.product__info h1 {
+        margin-top: 0.625em;
+        padding-right: 0.2em;
+    }
+
+    div.product__info > p:first-of-type {
+        margin-top: 1.714285em;
+    }
+
+    div.product__price {
+        margin-top: 1.8125em;
+        gap: 1.0625em;
+    }
+
+    div.product__price + button {
+        margin-top: 2.14285em;
+    }
+
+    div.product__price + button:hover {
+        cursor: pointer;
+        background-color: hsl(155,41%,18%);
+    }
 }
