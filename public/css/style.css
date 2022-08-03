@@ -43,7 +43,7 @@ div.product__image {
     min-height: 240px;
 
     background-color: white;
-    background-image: url("/public/images/product-mobile.jpg");
+    background-image: url("../images/product-mobile.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 8px 8px 0 0;
@@ -168,7 +168,7 @@ div.product__price + button {
         width: 300px;
         min-height: 100%;
 
-        background-image: url("/public/images/product-desktop.jpg");
+        background-image: url("../images/product-desktop.jpg");
         border-radius: 8px 0 0 8px;
     }
 
