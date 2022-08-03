@@ -35,7 +35,7 @@ div.card {
     min-height: 611px;
 
     background-color: white;
-    border-radius: 0.625em;
+    border-radius: 8px;
 }
 
 div.product__image {
@@ -45,31 +45,35 @@ div.product__image {
     background-color: white;
     background-image: url("/public/images/product-mobile.jpg");
     background-size: contain;
-    border-radius: 0.625em 0.625em 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 div.product__info {
-    margin: 1.5em 1.375em;
+    margin: 1.5em 1.4375em;
     padding: 0;
 
     font-family: 'Montserrat';
 }
 
 div.product__info > span:first-of-type {
-    font-size: 0.875rem;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 100%;
 
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.32em;
 
     color: var(--clr-gray);
 }
 
 div.product__info h1 {
     font-family: 'Fraunces';
-    font-size: 2rem;
-    line-height: 1em;
+    font-style: normal;
     font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
 
     color: var(--clr-black);
 
@@ -78,42 +82,50 @@ div.product__info h1 {
 }
 
 div.product__info > p:first-of-type {
-    font-size: 0.875rem;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.6em;
+    font-size: 0.875rem;
+    line-height: 162%;
 
     color: var(--clr-gray);
 
-    margin: 0;
-    margin-top: 1.285em;
+    margin: 1rem 0 0;
+    padding-right: 0.25em;
 }
 
 div.product__price {
     width: 100%;
-    margin-top: 1.375em;
+    margin-top: 1.5em;
 
     display: flex;
     flex-direction: row;
 
     align-items: center;
     justify-content: left;
-    gap: 0.875em;
+    gap: 0.9375em;
 }
 
 div.product__price > div.price__discount {
     font-family: 'Fraunces';
-    font-size: 2rem;
+    font-style: normal;
     font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
 
     color: var(--clr-green);
 }
 
 div.product__price > div.price__actual {
-    font-size: 0.875rem;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.6em;
+    font-size: 0.875rem;
+    line-height: 100%;
 
-    text-decoration: line-through;
+    letter-spacing: -0.03em;
+    text-decoration-line: line-through;
+
     color: var(--clr-gray);
 }
 
@@ -121,16 +133,18 @@ div.product__price + button {
     width: 100%;
     min-height: 48px;
 
-    margin: 10.42px 0 0;
+    margin: 1.4285em 0 0;
     padding: 0;
 
     font-family: 'Montserrat';
-    font-size: 0.875rem;
+    font-style: normal;
     font-weight: 700;
+    font-size:  0.875rem;
+    line-height: 100%;
 
     background-color: var(--clr-green);
     border: none;
-    border-radius: 0.4285em;
+    border-radius: 8px;
     color: white;
 
     display: flex;
@@ -138,5 +152,5 @@ div.product__price + button {
 
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 0.785em;
 }
