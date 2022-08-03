@@ -1,7 +1,7 @@
 # Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/simple-product-preview-card-with-html-and-css-5camBBR15-)
+- Live Site URL: [solvedbiscuit71.github.io/product-preview-card](https://solvedbiscuit71.github.io/product-preview-card/)
 
 # Layout
 
