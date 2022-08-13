@@ -169,6 +169,7 @@ div.product__price + button {
         min-height: 100%;
 
         background-image: url("../images/product-desktop.jpg");
+        background-size: cover;
         border-radius: 8px 0 0 8px;
     }
 
